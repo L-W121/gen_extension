@@ -54,7 +54,7 @@ app.post("/map", (req, res) => {
   // ===== AI 动作 =====
   let action = null;
   // 使用
-  if (turn > 55){
+  if (turn > 5){
     if (hasManualMove(map)) {
     console.log("✋ 手动操作中，跳过 AI");
     } else {
